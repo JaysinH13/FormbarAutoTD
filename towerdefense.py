@@ -23,6 +23,8 @@ def outer_loop():
     webbrowser.open('Maps\outer_loop.py')
 def celtic_knot():
     webbrowser.open('Maps\celtic_knot.py')
+def mouse():
+    webbrowser.open('Maps\mouse.py')
 
 
 b1 = tkinter.Button(text='Map#01', command=map01, width=50)
@@ -43,5 +45,7 @@ b8 = tkinter.Button(text="Where'dja Go?", command=where_dja_go, width=50)
 b8.pack()
 b9 = tkinter.Button(text="Jiggle'n'Juke", command=jiggle_n_juke, width=50)
 b9.pack()
+b10 = tkinter.Button(text="Mouse Info", command=mouse, width=50)
+b10.pack()
 
 window.mainloop()

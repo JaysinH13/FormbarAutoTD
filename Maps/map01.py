@@ -2,13 +2,15 @@ import time
 import pyautogui
 
 
-# time.sleep(5)
-
-
 # Follow pyautogui.moveTo(x,y) with a pyautogui.dragTo(x,y, button='left') that way it will drag the towers 
 
 
-# pyautogui.click(977, 674, duration = 0)
+# pyautogui.mouseInfo()
+time.sleep(5)
+pyautogui.click(966, 960)
+pyautogui.click(234, 98)
+pyautogui.click(944, 647)
+pyautogui.moveTo(472,963)
 # pyautogui.click(977, 674, duration = 0)
 # print(pyautogui.size())
 screenSize = pyautogui.size()
