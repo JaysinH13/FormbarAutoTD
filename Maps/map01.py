@@ -83,7 +83,7 @@ if ((screenSize[0] == 1920) and (screenSize[1] == 1080)) :
     pyautogui.click(498, 528)
     pyautogui.click(524,305)
     print("Cannon Tower Extra #1 Bought")
-    time.sleep(10)
+    time.sleep(12)
     pyautogui.click(524,305)
     print("Cannon Tower Direct Damage Explosion Bought")
     time.sleep(15)
