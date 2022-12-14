@@ -10,7 +10,7 @@ screenSize = pyautogui.size()
 # print(screenSize[0], screenSize[1])
 
 if ((screenSize[0] == 1920) and (screenSize[1] == 1080)) :
-    print("YOU SHOULD KILL YOURSELF NOW!!!!!!")
+    print("Have Fun")
     time.sleep(1000000)
 else:
     print("Commit Sepuku")
