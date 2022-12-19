@@ -50,5 +50,3 @@ if ((screenSize[0] == 1920) and (screenSize[1] == 1080)) :
     time.sleep(7.53)
     pyautogui.click(647,414)
     # print()
-else:
-    print("Commit Sepuku") 
