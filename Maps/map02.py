@@ -84,3 +84,4 @@ if ((screenSize[0] == 1920) and (screenSize[1] == 1080)) :
     
 else:
     print("Commit Sepuku") 
+
