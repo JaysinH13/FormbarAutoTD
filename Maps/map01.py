@@ -9,7 +9,7 @@ screenSize = pyautogui.size()
 # print(screenSize[0], screenSize[1])
 
 if ((screenSize[0] == 1920) and (screenSize[1] == 1080)) :
-    print("Correct")
+    print("Screen Size is", screenSize[0], "by", screenSize[1])
     time.sleep(5)
     pyautogui.click(966, 960)
     pyautogui.click(234, 98)
@@ -124,7 +124,7 @@ if ((screenSize[0] == 1920) and (screenSize[1] == 1080)) :
     time.sleep(4)
     pyautogui.click(1130,264)
     print("Cannon Tower #2 Strength Bought")
-    time.sleep(8)
+    time.sleep(10)
     pyautogui.click(1142,233)
     print('Cannon Tower #2 Speed Bought')
     time.sleep(12)
