@@ -130,7 +130,7 @@ if ((screenSize[0] == 1920) and (screenSize[1] == 1080)) :
     time.sleep(15)
     pyautogui.click(1130,264)
     print('Cannon Tower #2 Strength #2 Bought')
-    time.sleep(7)
+    time.sleep(9)
     pyautogui.click(1142,233)
     print('Cannon Tower #2 Speed #2 Bought')
     print("Now we wait. The program will close in 1 minute")
